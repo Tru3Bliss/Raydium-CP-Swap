@@ -1,3 +1,8 @@
+pub mod curve;
+pub mod error;
+pub mod utils;
+
+use crate::curve::fees::FEE_RATE_DENOMINATOR_VALUE;
 use anchor_lang::prelude::*;
 
 declare_id!("F4tHwxNDizBtYz4s5rSukS32RY4VA1AYSHjBmywRCcTp");
